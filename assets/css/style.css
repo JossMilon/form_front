@@ -1,0 +1,64 @@
+body {
+    background-image: url("../img/background.png");
+    background-size: cover;
+}
+
+/* MODAL */
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM */
+
+
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+}
+
+form h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea, form button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border: 2px solid black;
+}
+
+form button {
+    max-width: 100px;
+    margin-bottom: 0;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+.fa-times {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+}
+
+.fa-times:hover {
+    cursor: pointer;
+}
