@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             email: document.getElementById("email").value,
             message: document.getElementById("message").value
         }
-        // https://from-back-jm.herokuapp.com/form
-        const response = await axios.post("http://localhost:3000/form", formData);
+        const response = await axios.post("https://from-back-jm.herokuapp.com/form", formData);
         if (response) {
             submitButton.style.display = "none";
             confirmationMessage.style.display = "block";
